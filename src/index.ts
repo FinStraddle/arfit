@@ -5,7 +5,7 @@ import { AvatarRenderer } from "./avatarrenderer";
 
 // Engine
 const engine = new PoseEngine();
-const token = location.hostname === "localhost" ?
+const token = location.hostname === "https://arfit.onrender.com" ?
     "GpH4GvU1E1ypzyv-FL4iH4CtmHTuFEZi" : "prod.url_sdk_token";
 
 // Parameters
